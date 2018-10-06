@@ -37,7 +37,7 @@ message.reply("https://www.youtube.com/channel/UC7XnvNqghwVw-VSw8qhPU2wg")
   const helpembed = new Discord.RichEmbed()
     .setTitle("פקודות השרת")
     .setColor("#00f6ff")
-    .setDescription("\nפקודות רגילות:\n`=helpme`\n`=report`\n`=serverinfo`");
+    .setDescription("\nפקודות רגילות:\n`?helpme`\n`?report`\n`?serverinfo`");
   message.author.send(helpembed)
   message.reply("קיבלת פקודות בפרטי! <:yes:493809232064544778>")
   }
@@ -46,7 +46,7 @@ message.reply("https://www.youtube.com/channel/UC7XnvNqghwVw-VSw8qhPU2wg")
   const helpembed = new Discord.RichEmbed()
     .setTitle("פקודות לצוות השרת")
     .setColor("#00f6ff")
-    .setDescription("פקודות לצוות:\n`=kick` `=ban`\n`=mute`\n`=tempmute (לא זמין כעט)`\n`=unmute`");
+    .setDescription("פקודות לצוות:\n`?kick` `?ban`\n`=mute`\n`?tempmute (לא זמין כעט)`\n`?unmute`\n`?say`");
   message.author.send(helpembed)
   if(!message.member.roles.find("name", "Staff")) return message.reply("אתה לא יכול לעשות את הפקודה היא רק לחברי צוות");
   message.reply("צוות יקר הפקודות בפרטי🎓 <:yes:493809232064544778>")
