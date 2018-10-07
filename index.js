@@ -309,4 +309,4 @@ if(cmd === `${prefix}botinfo`){
 
 });
 
-client.login(botconfig.token)
+client.login(process.env.BOT_token)
